@@ -1,3 +1,5 @@
+//teste_git 
+
 import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -28,9 +30,7 @@ public class Cliente {
 	private JTextField tbservidor;
 	private JTextField tbStatus;
 
-	/**
-	 * Launch the application.
-	 */
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -44,16 +44,12 @@ public class Cliente {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
+	
 	public Cliente() {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
+	
 	private void initialize() {
 		frame = new JFrame();
 		frame.getContentPane().setBackground(Color.WHITE);
